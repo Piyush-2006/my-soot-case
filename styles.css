@@ -1,0 +1,150 @@
+/* Background GIF */
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-image: url('https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ3RtMjIxcHhudjUyOXk2ajlqbHJtbDN5enhjdWg4bzNwcmRyb3huYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/lpOMzrjrSKYOA/giphy.gif'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #2f2f2f;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    overflow-y: auto;
+}
+
+/* Logo Style */
+#logo {
+    width: 200px; /* Adjust the size as needed */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Makes the image behave like a block-level element */
+    margin-left: auto; /* Centers the logo horizontally */
+    margin-right: auto; /* Centers the logo horizontally */
+    margin-top: 20px; /* Space from the top */
+}
+
+
+
+/* Header Style */
+header {
+    
+    background-color: rgba(255, 255, 255, 0);
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    position: relative;
+    z-index: 10;
+    
+}
+
+h1 {
+    font-size: 2.5em;  
+    color: white;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    border-top: 2px solid white;
+}
+
+h2 {
+    color: #f9e9e6;
+    font-size: 2em;
+    border-bottom: 2px solid white;
+}
+
+#video-section {
+    display: flex; /* Enables flexbox layout */
+    justify-content: center; /* Centers the video horizontally */
+    align-items: center; /* Centers the video vertically */
+    width: 100%; /* Ensures it spans the entire width of the page */
+    margin: 0 auto; /* Centers the section on the page */
+}
+
+#youtube-video {
+    width: 100%;
+    max-width: 800px; /* Set the maximum width for the video */
+    height: 450px; /* Keeps the aspect ratio */
+    border: none; /* Removes any iframe border */
+}
+
+
+/* Optional: Make it responsive */
+@media (max-width: 768px) {
+    #youtube-video {
+        height: auto; /* Allows the height to adjust automatically */
+        aspect-ratio: 16 / 9; /* Maintains the aspect ratio */
+    }
+}
+
+
+
+
+
+iframe {
+    width: 100%;
+    max-width: 560px;
+    height: 250px;
+    border: none;
+    border-radius: 10px;
+}
+
+#fun-content {
+    font-size: 1.3em;
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.312);
+    border-radius: 30px;
+    border: 5px dashed #ff5733;
+}
+
+#random-joke-btn {
+    background-color: #27ae60;
+    padding: 10px 15px;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+#random-joke-btn:hover {
+    background-color: #ad2ed7;
+    transform: scale(1.1);
+}
+
+.funny-gif {
+    max-width: 100%;
+    margin-top: 15px;
+    border-radius: 10px;
+    display: block;
+    max-height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    font-size: 20px;
+    position: static; /* Footer is part of the normal document flow */
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    background-color: rgba(30, 143, 255, 0.089); /* Light blue semi-transparent background */
+    color: white;
+    font-family: inherit; /* Matches the font of the rest of the page */
+    line-height: 1.5; /* Adjusts spacing between lines */
+    border-top: 2px solid white; /* Optional: Adds a top border for separation */
+}
+
+footer a {
+    color: rgb(37, 22, 171); /* Highlights the LinkedIn link */
+    font-weight: bold; /* Makes the link bold */
+    text-decoration: none;
+}
+
+footer a:hover {
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+
+
+
+
+
